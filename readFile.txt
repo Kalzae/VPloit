@@ -1,0 +1,17 @@
+try{
+var namee = directory.split('/')
+var dire = Dir + directory.replace(namee[namee.length -1], '')
+   var fcont = ''
+   var res = ''
+   	var file = new BufferedReader(new FileReader(new File(dire, namee[namee.length -1])))
+       while((fcont = file.readLine()) != null ) { 
+if(fcont != '') {
+res = res + fcont + '\n'
+}else{
+	res = res + fcont
+	}} 
+        return res
+        
+        }catch(err){
+        	clientMessage(err.toString())
+        }
