@@ -1,0 +1,7 @@
+	var namee = directory.split('/')
+var dire = Dir + directory.replace(namee[namee.length -1], '')
+   	if(!new File(dire, namee[namee.length -1]).exists()) {
+return false
+   }else{ 
+return true
+   }
