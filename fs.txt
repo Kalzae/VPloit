@@ -1,4 +1,4 @@
-   fs = {
+   {
 	exists: function(directory) {
    	var namee = directory.split('/')
 var dire = Dir + directory.replace(namee[namee.length -1], '')
