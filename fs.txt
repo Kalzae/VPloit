@@ -1,4 +1,5 @@
-   	exists: function(directory) {
+   {
+	exists: function(directory) {
    	var namee = directory.split('/')
 var dire = Dir + directory.replace(namee[namee.length -1], '')
    	if(!new File(dire, namee[namee.length -1]).exists()) {
@@ -71,3 +72,4 @@ var dire = Dir + directory.replace(namee[namee.length -1], '')
    	var file = new File(dire, namee[namee.length -1])
         file.delete()
    }
+}
