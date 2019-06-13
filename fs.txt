@@ -66,10 +66,4 @@ var dire = Dir + directory.replace(namee[namee.length -1], '')
         	clientMessage(err.toString())
         }
    }
-   var delete = function(directory) {
-   	var namee = directory.split('/')
-var dire = Dir + directory.replace(namee[namee.length -1], '')
-   	var file = new File(dire, namee[namee.length -1])
-        file.delete()
-   }
-}
+   
