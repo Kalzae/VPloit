@@ -66,4 +66,3 @@ var dire = Dir + directory.replace(namee[namee.length -1], '')
         	clientMessage(err.toString())
         }
    }
-   
