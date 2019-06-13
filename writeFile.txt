@@ -2,7 +2,6 @@ var namee = directory.split('/')
 var dire = Dir + directory.replace(namee[namee.length -1], '')
    	if(!new File(dire).exists()) {
    	new File(dire).mkdir()
-   return 'No Directory Found'
    }
 	if(new File(dire, namee[namee.length -1]).exists()) {
    	 var file = new FileWriter(new File(dire, namee[namee.length -1]))
