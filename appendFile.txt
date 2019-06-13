@@ -1,0 +1,19 @@
+try{
+   	var namee = directory.split('/')
+var dire = Dir + directory.replace(namee[namee.length -1], '')
+ if(!fs.exists(dire)) {
+   	new File(dire).mkdir()
+   return 'No Directory Found'
+   }
+   if(!fs.exists(dire)) {
+   	new File(dire, namee[namee.length -1]).createNewFile()
+   }
+   var prev = fs.readFile(directory + namee[namee.length -1])
+   	var file = new BufferedWriter(new FileWriter(new File(dire, namee[namee.length -1])))
+   var bleh = prev + content
+   var cont = bleh.replace('\n' + content, content)
+        file.write(cont)
+        file.close()
+        }catch(err){
+        	clientMessage(err.toString())
+        }
