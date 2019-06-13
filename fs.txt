@@ -7,7 +7,7 @@ return false
    }else{ 
 return true
    }
-   },
+   }
 writeFile: function(directory, content) {
 	var namee = directory.split('/')
 var dire = Dir + directory.replace(namee[namee.length -1], '')
@@ -25,7 +25,7 @@ var dire = Dir + directory.replace(namee[namee.length -1], '')
         file.write(content)
         file.close()
         }
-   },
+   }
    readFile: function(directory) {
    	try{
 var namee = directory.split('/')
@@ -44,7 +44,7 @@ res = res + fcont + '\n'
         }catch(err){
         	clientMessage(err.toString())
         }
-   },
+   }
    appendFile: function(directory, content) {
    	try{
    	var namee = directory.split('/')
@@ -65,7 +65,7 @@ var dire = Dir + directory.replace(namee[namee.length -1], '')
         }catch(err){
         	clientMessage(err.toString())
         }
-   },
+   }
    delete: function(directory) {
    	var namee = directory.split('/')
 var dire = Dir + directory.replace(namee[namee.length -1], '')
