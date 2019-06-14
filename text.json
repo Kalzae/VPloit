@@ -1,0 +1,5 @@
+{
+ paths: {
+  buttonBackground: '/VPloit/Data/GUI/buttonColor.txt'
+  }
+ }
