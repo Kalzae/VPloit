@@ -1,1 +1,1 @@
-clientMessage('Welcome To VPloit: ' + Player.getName(getPlayerEnt()))
+clientMessage('Welcome To VPloit: ' + Entity.getNameTag(getPlayerEnt()))
