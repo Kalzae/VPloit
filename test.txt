@@ -1,1 +1,1 @@
-Text From Github
+clientMessage('Welcome To VPloit: ' + Player.getName(getPlayerEnt()))
